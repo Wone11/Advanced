@@ -1,3 +1,5 @@
+from listoperations import *
+
 #orginal list
 fruit_list= ['banana','apple','orange']
 
@@ -25,3 +27,18 @@ fruit_list.insert(4,'water melon')
 for (i, item) in enumerate(fruit_list,start=1):
     print('index : {} fruit : {} '.format(i,item))
 
+def callOne():
+    list_operand()
+
+def display_odd():
+    amazin_display()
+#call methods
+
+if __name__ =='__main__':
+    choice = int(input('Enter a choice : '))
+    if choice == 1:
+        callOne()
+    elif choice ==2:
+        display_odd()
+    else:
+        print('No correct choice ')
