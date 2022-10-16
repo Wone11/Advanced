@@ -11,6 +11,9 @@ fruit_list.insert(3,'pappaya')
 #add an item in the first position
 fruit_list.insert(0,'tomato')
 
+#here is something needs to be removed
+fruit_list.pop(0)
+
 #displaying lists using a for loop
 for (i, item) in enumerate(fruit_list,start=1):
     print('index : {} fruit : {} '.format(i,item))
