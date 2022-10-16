@@ -11,6 +11,9 @@ fruit_list.insert(3,'pappaya')
 #add an item in the first position
 fruit_list.insert(0,'tomato')
 
+#here is something needs to be removed
+fruit_list.pop(0)
+
 #item inserted by master
 fruit_list.insert(1,'Carrot')
 
