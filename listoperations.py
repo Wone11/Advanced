@@ -18,5 +18,13 @@ def reverse_display():
     displayed_to =list_one[::-1]
     print(displayed_to)
     
+def power():
+    list_one =[1,2,3,4,5,6,7,8,9]
+    powers = [item * item for item in  list_one]
+    
+    print(list_one)
+    print(powers)
+    
 # reverse_display()
 # amazin_display()
+# power()

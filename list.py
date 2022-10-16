@@ -34,8 +34,8 @@ def callOne():
 
 def display_odd():
     amazin_display()
-#call methods
 
+'''Mian functions call '''
 if __name__ =='__main__':
     choice = int(input('Enter a choice : '))
     if choice == 1:
@@ -46,5 +46,7 @@ if __name__ =='__main__':
             normal_list()
     elif choice == 4:
         reverse_display()
+    elif choice == 5:
+        power()
     else:
         print('No correct choice ')
