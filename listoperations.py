@@ -1,19 +1,22 @@
 
-'''
-operational list functons
-'''
-
+'''functions to concat a two lists'''
 def list_operand():
     list_one = [0] * 8
     list_two = [1, 2, 3, 4, 5, 6]
     new_list = list_one + list_two
     print(new_list)
 
-
+'''display in gap 2 function'''
 def amazin_display():
     list_one = [1,2,3,4,5,6,7,8,9]
     displayed_to =list_one[::2]
     print(displayed_to)
-# list_operand()
-
-amazin_display()
+    
+'''Display in the reverse orede'''
+def reverse_display():
+    list_one = [1,2,3,4,5,6,7,8,9]
+    displayed_to =list_one[::-1]
+    print(displayed_to)
+    
+# reverse_display()
+# amazin_display()
