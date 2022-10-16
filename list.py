@@ -14,6 +14,9 @@ fruit_list.insert(0,'tomato')
 #here is something needs to be removed
 fruit_list.pop(0)
 
+#item inserted by master
+fruit_list.insert(1,'Carrot')
+
 #displaying lists using a for loop
 for (i, item) in enumerate(fruit_list,start=1):
     print('index : {} fruit : {} '.format(i,item))
