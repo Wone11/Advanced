@@ -13,11 +13,17 @@ def Astrix():
 def Letters():
     apple = ('a','p','p','l','e')
     print(apple)
+    print(apple.count('p'))
     
     if 'a' in apple:
         print('a Letter A Exists in tuple')
     else:
         print('A does not exists in the tuple')
+        
+def Check_New_Stage():
+    print('Diff Stage')
 
 Letters()
 Astrix()
+
+Check_New_Stage()
