@@ -18,6 +18,7 @@ def reverse_display():
     displayed_to =list_one[::-1]
     print(displayed_to)
     
+'''powers of the given list'''
 def power():
     list_one =[1,2,3,4,5,6,7,8,9]
     powers = [item * item for item in  list_one]
