@@ -14,10 +14,10 @@ def Operations():
     data ={'name':'Gandayiki','Age':28,'Genderd':'Male'}
     
     data['email'] = 'Ganadayiki156@gandayiki.com'
+    data['City'] = 'Addis Ababa'
     print(data)
-    
-
-
+    data.pop('email')
+    print(data)
     
 
 #Functiokn call
