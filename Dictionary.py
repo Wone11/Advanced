@@ -9,7 +9,17 @@ def Data():
     
     for item in data:
         print(item)
+
+def Operations():
+    data ={'name':'Gandayiki','Age':28,'Genderd':'Male'}
+    
+    data['email'] = 'Ganadayiki156@gandayiki.com'
+    print(data)
+    
+
+
     
 
 #Functiokn call
 Data()
+Operations()
