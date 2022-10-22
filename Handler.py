@@ -11,18 +11,17 @@ def Devizion():
     try:
         numberOne  = int(input('Enter The Devider : '))
         numberTwo  = int(input('Enter The Devidend : '))
-        checkType   = numberOne + numberTwo
         print(numberOne / numberTwo)
-    
     except ZeroDivisionError as message:
-        print(message)
-        
+        print(message)     
     except TypeError as message:
         print(message)
     except ValueError as message:
         print(message)
     else:
         print('Every Thing is OK')
+    finally:
+        print('Done!!!')
 
 #Call the Methods....
 Handllers()
